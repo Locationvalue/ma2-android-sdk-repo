@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-json",
+    "version": "1.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.4.4.aar",
+          "url": "nautilus-util-json-1.4.4.aar",
+          "size": 11161,
+          "sha512": "3ca08f4d07d2cf243bfb5ebff9bc6af8b8f552ddea16edb35dcbbbcbf21b9bcac05f4caca16ea5945a31c0e13f7a08acc7609b74ed3378ecba6b93ef0bbc2696",
+          "sha256": "f4bb43fe65e2108e99298398c25e553ff71220b978eb3f46ab7e04c99c15822e",
+          "sha1": "0b4b772a42e7399bbe438fe0a30b7a6a9b941cd0",
+          "md5": "6be1af5c9427bf2980b32ba69dc4cb29"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.4.4.aar",
+          "url": "nautilus-util-json-1.4.4.aar",
+          "size": 11161,
+          "sha512": "3ca08f4d07d2cf243bfb5ebff9bc6af8b8f552ddea16edb35dcbbbcbf21b9bcac05f4caca16ea5945a31c0e13f7a08acc7609b74ed3378ecba6b93ef0bbc2696",
+          "sha256": "f4bb43fe65e2108e99298398c25e553ff71220b978eb3f46ab7e04c99c15822e",
+          "sha1": "0b4b772a42e7399bbe438fe0a30b7a6a9b941cd0",
+          "md5": "6be1af5c9427bf2980b32ba69dc4cb29"
+        }
+      ]
+    }
+  ]
+}
