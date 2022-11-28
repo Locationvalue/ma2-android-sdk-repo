@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-json",
+    "version": "1.5.4-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.5.4-hotfix1.aar",
+          "url": "nautilus-util-json-1.5.4-hotfix1.aar",
+          "size": 11154,
+          "sha512": "8a330eba7d48c21503e2d6c0d8c8c0962338885ef7af1a0a25248433e30e4e758aa89c4f65fe7d691da052573d66439fe84766b5f6b457abce3bf4f71446d5f0",
+          "sha256": "3e1de07489f6162e607f15912aed9284883a05a9eebd34402bf990d304c0470c",
+          "sha1": "d8f0d717833f6a1e69d716682bb00f65cbd2f784",
+          "md5": "a2ab01e6c0a702ae0324b05508987292"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.5.4-hotfix1.aar",
+          "url": "nautilus-util-json-1.5.4-hotfix1.aar",
+          "size": 11154,
+          "sha512": "8a330eba7d48c21503e2d6c0d8c8c0962338885ef7af1a0a25248433e30e4e758aa89c4f65fe7d691da052573d66439fe84766b5f6b457abce3bf4f71446d5f0",
+          "sha256": "3e1de07489f6162e607f15912aed9284883a05a9eebd34402bf990d304c0470c",
+          "sha1": "d8f0d717833f6a1e69d716682bb00f65cbd2f784",
+          "md5": "a2ab01e6c0a702ae0324b05508987292"
+        }
+      ]
+    }
+  ]
+}
