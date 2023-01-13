@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-cryptography",
+    "version": "1.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-cryptography-1.6.2.aar",
+          "url": "nautilus-tools-cryptography-1.6.2.aar",
+          "size": 18717,
+          "sha512": "4e54b04b164f3b81bb8bd9d38d11eb7f1886e129cf1ce6c22bf28ff09901c46b68305f9c531920c6a60cef68f0f048692082742a01e0ddbdab4940b71c8b428b",
+          "sha256": "f4be8057b61b59fc3f37e102fd87be9f02b84cb8520708ba2b24b7f884a32a3f",
+          "sha1": "75e2b75a6fce91e79871bfbd54458567560440a8",
+          "md5": "60afdbcf583280c8c32e577e733c1c7e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-cryptography-1.6.2.aar",
+          "url": "nautilus-tools-cryptography-1.6.2.aar",
+          "size": 18717,
+          "sha512": "4e54b04b164f3b81bb8bd9d38d11eb7f1886e129cf1ce6c22bf28ff09901c46b68305f9c531920c6a60cef68f0f048692082742a01e0ddbdab4940b71c8b428b",
+          "sha256": "f4be8057b61b59fc3f37e102fd87be9f02b84cb8520708ba2b24b7f884a32a3f",
+          "sha1": "75e2b75a6fce91e79871bfbd54458567560440a8",
+          "md5": "60afdbcf583280c8c32e577e733c1c7e"
+        }
+      ]
+    }
+  ]
+}
