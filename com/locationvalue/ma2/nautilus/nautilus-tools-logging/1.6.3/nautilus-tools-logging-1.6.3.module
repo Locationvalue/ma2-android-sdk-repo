@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-logging",
+    "version": "1.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-logging-1.6.3.aar",
+          "url": "nautilus-tools-logging-1.6.3.aar",
+          "size": 16671,
+          "sha512": "8fd57911c95e48269402dc55f3130e36b858bcc9ae0eee0c50ff93ab429f7a0d724ceabc73bc6097137f879f2d0c0b1befc6ee1a628fe0212d930da5939b008e",
+          "sha256": "018f25af5a07f7f5d912c18bccd32f8e606bbf5037552830c2c484311be5b8f4",
+          "sha1": "6d29cc5c97e204c78588e67f6bd37ce3595c5d9a",
+          "md5": "c47778e1f9c6ce43e54e2e6418eaf2d0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-logging-1.6.3.aar",
+          "url": "nautilus-tools-logging-1.6.3.aar",
+          "size": 16671,
+          "sha512": "8fd57911c95e48269402dc55f3130e36b858bcc9ae0eee0c50ff93ab429f7a0d724ceabc73bc6097137f879f2d0c0b1befc6ee1a628fe0212d930da5939b008e",
+          "sha256": "018f25af5a07f7f5d912c18bccd32f8e606bbf5037552830c2c484311be5b8f4",
+          "sha1": "6d29cc5c97e204c78588e67f6bd37ce3595c5d9a",
+          "md5": "c47778e1f9c6ce43e54e2e6418eaf2d0"
+        }
+      ]
+    }
+  ]
+}
