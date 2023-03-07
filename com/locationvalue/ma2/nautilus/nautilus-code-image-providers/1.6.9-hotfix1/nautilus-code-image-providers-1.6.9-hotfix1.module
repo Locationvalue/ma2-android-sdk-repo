@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-code-image-providers",
+    "version": "1.6.9-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.6.9-hotfix1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-code-image-providers-1.6.9-hotfix1.aar",
+          "url": "nautilus-code-image-providers-1.6.9-hotfix1.aar",
+          "size": 12999,
+          "sha512": "beff41f85674b663fff1d19d8001cb81d56120074a1d7a42b0d7c3582cd701e4d11ffd6e4413ccc17599cd1dce2f1c66c36c505cd06b01c098bee5642494b8ef",
+          "sha256": "de11b421469c95b9cc187032c854c651e150a90c68864614e8d70596241d6caf",
+          "sha1": "e197080834edbe7f18749e9232ee0a0f9788cc09",
+          "md5": "0a4e1f5fbac845e4b3ff6e3c8a816b7d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.6.9-hotfix1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-code-image-providers-1.6.9-hotfix1.aar",
+          "url": "nautilus-code-image-providers-1.6.9-hotfix1.aar",
+          "size": 12999,
+          "sha512": "beff41f85674b663fff1d19d8001cb81d56120074a1d7a42b0d7c3582cd701e4d11ffd6e4413ccc17599cd1dce2f1c66c36c505cd06b01c098bee5642494b8ef",
+          "sha256": "de11b421469c95b9cc187032c854c651e150a90c68864614e8d70596241d6caf",
+          "sha1": "e197080834edbe7f18749e9232ee0a0f9788cc09",
+          "md5": "0a4e1f5fbac845e4b3ff6e3c8a816b7d"
+        }
+      ]
+    }
+  ]
+}
