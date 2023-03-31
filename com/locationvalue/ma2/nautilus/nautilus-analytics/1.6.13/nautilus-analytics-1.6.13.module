@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-analytics",
+    "version": "1.6.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.6.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-analytics-1.6.13.aar",
+          "url": "nautilus-analytics-1.6.13.aar",
+          "size": 145030,
+          "sha512": "02d6732c500dd1808e8e801ca852a281cee54ded9034a37a3a4092256c4b3a7d7b1ebb5e8e5bcd6ae8815cfa087b425f097abdc729422f01a79f148275227060",
+          "sha256": "e0abc58d90a9479bf9f3ec36d7e2f9f0b648add5927a40ef5d22739eed761e29",
+          "sha1": "c4173666e45e9b2bdd6182e543f04ba672fb024c",
+          "md5": "ec0972ac39b77e5ad795aa1f66bb0a6f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.6.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-analytics-1.6.13.aar",
+          "url": "nautilus-analytics-1.6.13.aar",
+          "size": 145030,
+          "sha512": "02d6732c500dd1808e8e801ca852a281cee54ded9034a37a3a4092256c4b3a7d7b1ebb5e8e5bcd6ae8815cfa087b425f097abdc729422f01a79f148275227060",
+          "sha256": "e0abc58d90a9479bf9f3ec36d7e2f9f0b648add5927a40ef5d22739eed761e29",
+          "sha1": "c4173666e45e9b2bdd6182e543f04ba672fb024c",
+          "md5": "ec0972ac39b77e5ad795aa1f66bb0a6f"
+        }
+      ]
+    }
+  ]
+}
