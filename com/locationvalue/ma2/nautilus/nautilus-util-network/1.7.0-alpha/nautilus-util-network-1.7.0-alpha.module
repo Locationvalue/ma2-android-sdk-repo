@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-network",
+    "version": "1.7.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.7.0-alpha"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-network-1.7.0-alpha.aar",
+          "url": "nautilus-util-network-1.7.0-alpha.aar",
+          "size": 23672,
+          "sha512": "eb90c9037e3148fdad58bb06bbe516b5893460d27e4f1b8fd07a20e6262eebbceab690321e625d13519afdfe339f67b0284dfb2e7c71ce612b81faff6fe376f6",
+          "sha256": "0f4c99aad43419bd0ae0c4c5fad8d0143ee19f16ad4b82d9960a9b4726b23d8e",
+          "sha1": "7a464fb414d16ba33631e1e6f60014c262a04933",
+          "md5": "541cf32815fc1a12e9edbcf07c00fa96"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.7.0-alpha"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-network-1.7.0-alpha.aar",
+          "url": "nautilus-util-network-1.7.0-alpha.aar",
+          "size": 23672,
+          "sha512": "eb90c9037e3148fdad58bb06bbe516b5893460d27e4f1b8fd07a20e6262eebbceab690321e625d13519afdfe339f67b0284dfb2e7c71ce612b81faff6fe376f6",
+          "sha256": "0f4c99aad43419bd0ae0c4c5fad8d0143ee19f16ad4b82d9960a9b4726b23d8e",
+          "sha1": "7a464fb414d16ba33631e1e6f60014c262a04933",
+          "md5": "541cf32815fc1a12e9edbcf07c00fa96"
+        }
+      ]
+    }
+  ]
+}
