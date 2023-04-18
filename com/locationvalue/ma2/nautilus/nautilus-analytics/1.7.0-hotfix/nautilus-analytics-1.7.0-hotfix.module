@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-analytics",
+    "version": "1.7.0-hotfix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.0-hotfix"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-analytics-1.7.0-hotfix.aar",
+          "url": "nautilus-analytics-1.7.0-hotfix.aar",
+          "size": 157571,
+          "sha512": "6c6a3e71f7c0aad68ecdb76ff83baf7a7b0982be2fa9046592f270e576e789ea88940f4928a9ed0c79d8d7ec8d89c0caf0a2fc9e2f46c9f7918f644a0a49c67c",
+          "sha256": "fa3fd9e7eaffda0e5fc7e392fee5e68acb19a07100c0c8f9f809b6fdb4a17d05",
+          "sha1": "ba1177e1990518b1df7ee248f8857b69ba1db456",
+          "md5": "9681652a564cf213b4bfbb66fb0515ae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.0-hotfix"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-analytics-1.7.0-hotfix.aar",
+          "url": "nautilus-analytics-1.7.0-hotfix.aar",
+          "size": 157571,
+          "sha512": "6c6a3e71f7c0aad68ecdb76ff83baf7a7b0982be2fa9046592f270e576e789ea88940f4928a9ed0c79d8d7ec8d89c0caf0a2fc9e2f46c9f7918f644a0a49c67c",
+          "sha256": "fa3fd9e7eaffda0e5fc7e392fee5e68acb19a07100c0c8f9f809b6fdb4a17d05",
+          "sha1": "ba1177e1990518b1df7ee248f8857b69ba1db456",
+          "md5": "9681652a564cf213b4bfbb66fb0515ae"
+        }
+      ]
+    }
+  ]
+}
