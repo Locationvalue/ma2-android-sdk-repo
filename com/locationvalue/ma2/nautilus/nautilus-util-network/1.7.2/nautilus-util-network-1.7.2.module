@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-network",
+    "version": "1.7.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-network-1.7.2.aar",
+          "url": "nautilus-util-network-1.7.2.aar",
+          "size": 23668,
+          "sha512": "f98b67744cb9d660b5529efa5be47b6f82be5ded68113a67f2d96ab7a1d626a1f37f0d2a49028426389aa84e89ec8933c9808ef921cf3f08b7ebf88848751695",
+          "sha256": "e47b9bb810e63e417f8c1ed19a621961aa7a29c1e9e9b6edfcbbee286307b425",
+          "sha1": "d779fff3e68301589a96ccda53ccb864ad299a5e",
+          "md5": "cc1949e3634c7b5c835c55ed3cedfb99"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-network-1.7.2.aar",
+          "url": "nautilus-util-network-1.7.2.aar",
+          "size": 23668,
+          "sha512": "f98b67744cb9d660b5529efa5be47b6f82be5ded68113a67f2d96ab7a1d626a1f37f0d2a49028426389aa84e89ec8933c9808ef921cf3f08b7ebf88848751695",
+          "sha256": "e47b9bb810e63e417f8c1ed19a621961aa7a29c1e9e9b6edfcbbee286307b425",
+          "sha1": "d779fff3e68301589a96ccda53ccb864ad299a5e",
+          "md5": "cc1949e3634c7b5c835c55ed3cedfb99"
+        }
+      ]
+    }
+  ]
+}
