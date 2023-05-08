@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-imaging",
+    "version": "1.7.2-hotfix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.7.2-hotfix"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-imaging-1.7.2-hotfix.aar",
+          "url": "nautilus-util-imaging-1.7.2-hotfix.aar",
+          "size": 11063,
+          "sha512": "fa2c16b0b1157e7149255bf29d0117e8ab46f67660679d232d9db0c81e6c03ae49b9119fe9c85f1b6e7c36022bfbdb4c7ddcc3b6cd37a0f299bfae3f1294d347",
+          "sha256": "e8574f2eccb9f4c14b1aee2217ca1dec1a32163479305624097721da9459a612",
+          "sha1": "c7c5eb9755a7275d95a3afa64cd0bd87f631cf2a",
+          "md5": "8c69c8684a4d869c9f34c3ab7f82af52"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.7.2-hotfix"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-imaging-1.7.2-hotfix.aar",
+          "url": "nautilus-util-imaging-1.7.2-hotfix.aar",
+          "size": 11063,
+          "sha512": "fa2c16b0b1157e7149255bf29d0117e8ab46f67660679d232d9db0c81e6c03ae49b9119fe9c85f1b6e7c36022bfbdb4c7ddcc3b6cd37a0f299bfae3f1294d347",
+          "sha256": "e8574f2eccb9f4c14b1aee2217ca1dec1a32163479305624097721da9459a612",
+          "sha1": "c7c5eb9755a7275d95a3afa64cd0bd87f631cf2a",
+          "md5": "8c69c8684a4d869c9f34c3ab7f82af52"
+        }
+      ]
+    }
+  ]
+}

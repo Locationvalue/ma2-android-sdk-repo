@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-datetime",
+    "version": "1.7.2-hotfix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.2-hotfix"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-datetime-1.7.2-hotfix.aar",
+          "url": "nautilus-util-datetime-1.7.2-hotfix.aar",
+          "size": 15038,
+          "sha512": "1b1664a19d33d0cdcf707eabe5f4b1682b3136420344148a8c2dae6e43bd817aaf58d25c5c839c73587e351a87356383cbcaca280235a9e57676f9338e81c7ea",
+          "sha256": "451928ab6e1d1ee0b5756c9a409f1211a5c7e65e4cdc224642fd5ce60ab60f6a",
+          "sha1": "5e951c4b0f99165555c55d2a16b5c9e30a7fd48f",
+          "md5": "4b8b0eff145e0e9130765e90c9712bfa"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.2-hotfix"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.threetenabp",
+          "module": "threetenabp",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-datetime-1.7.2-hotfix.aar",
+          "url": "nautilus-util-datetime-1.7.2-hotfix.aar",
+          "size": 15038,
+          "sha512": "1b1664a19d33d0cdcf707eabe5f4b1682b3136420344148a8c2dae6e43bd817aaf58d25c5c839c73587e351a87356383cbcaca280235a9e57676f9338e81c7ea",
+          "sha256": "451928ab6e1d1ee0b5756c9a409f1211a5c7e65e4cdc224642fd5ce60ab60f6a",
+          "sha1": "5e951c4b0f99165555c55d2a16b5c9e30a7fd48f",
+          "md5": "4b8b0eff145e0e9130765e90c9712bfa"
+        }
+      ]
+    }
+  ]
+}
