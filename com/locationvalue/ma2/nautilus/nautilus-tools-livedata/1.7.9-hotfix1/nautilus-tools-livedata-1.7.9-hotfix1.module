@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-livedata",
+    "version": "1.7.9-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.7.9-hotfix1.aar",
+          "url": "nautilus-tools-livedata-1.7.9-hotfix1.aar",
+          "size": 10336,
+          "sha512": "72131aa7e21ea5c41c1b5a0feaa095835b08a67f2fd3eb9de10268efdcf27d455544ad26810599fe2aa12158e4438b2f2ccb5b0e6500033f431d74fdfaf5da19",
+          "sha256": "0722116f0dbfd30493b49b034b9bf73ef4e04e0110dcf097da71543eca01b6f6",
+          "sha1": "6f00861a80825a2b85602d34b87e8be363d54e45",
+          "md5": "63cb83fee4fa3c8058c15f33d0625130"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.7.9-hotfix1.aar",
+          "url": "nautilus-tools-livedata-1.7.9-hotfix1.aar",
+          "size": 10336,
+          "sha512": "72131aa7e21ea5c41c1b5a0feaa095835b08a67f2fd3eb9de10268efdcf27d455544ad26810599fe2aa12158e4438b2f2ccb5b0e6500033f431d74fdfaf5da19",
+          "sha256": "0722116f0dbfd30493b49b034b9bf73ef4e04e0110dcf097da71543eca01b6f6",
+          "sha1": "6f00861a80825a2b85602d34b87e8be363d54e45",
+          "md5": "63cb83fee4fa3c8058c15f33d0625130"
+        }
+      ]
+    }
+  ]
+}
