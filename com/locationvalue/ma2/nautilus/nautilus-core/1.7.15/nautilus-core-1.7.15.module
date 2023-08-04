@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-core",
+    "version": "1.7.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.7.15"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-cryptography",
+          "version": {
+            "requires": "1.7.15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-core-1.7.15.aar",
+          "url": "nautilus-core-1.7.15.aar",
+          "size": 116062,
+          "sha512": "46aa4724ab27fc1e4ea85e8bb9f54c810e19b08b29d65956a1b883e5e98546620df810ebbf989eaa1dc2c87ac205b4e30a1e9949b21dbaf2a0a304a7fc213f20",
+          "sha256": "bfe62d62fbd51b0e2668fe70c0dde3b720c7e76950f48165287c4714375eeb38",
+          "sha1": "c3c06e2fe26a3d57415c891c325f504f60874cff",
+          "md5": "a2e5c5f544d456391506dfa13284f5d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.7.15"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-cryptography",
+          "version": {
+            "requires": "1.7.15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-core-1.7.15.aar",
+          "url": "nautilus-core-1.7.15.aar",
+          "size": 116062,
+          "sha512": "46aa4724ab27fc1e4ea85e8bb9f54c810e19b08b29d65956a1b883e5e98546620df810ebbf989eaa1dc2c87ac205b4e30a1e9949b21dbaf2a0a304a7fc213f20",
+          "sha256": "bfe62d62fbd51b0e2668fe70c0dde3b720c7e76950f48165287c4714375eeb38",
+          "sha1": "c3c06e2fe26a3d57415c891c325f504f60874cff",
+          "md5": "a2e5c5f544d456391506dfa13284f5d5"
+        }
+      ]
+    }
+  ]
+}
