@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-imaging",
+    "version": "1.7.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.7.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-imaging-1.7.16.aar",
+          "url": "nautilus-util-imaging-1.7.16.aar",
+          "size": 11064,
+          "sha512": "6853f6806fee00d5b1835366943bfa2bb0e47ec46e378ed4d8008d76b702fabd07e583b823645a54ddf54521a4d95e386fc275b7e80360bb79e4953a3ffeda49",
+          "sha256": "0d55068a57ec63abab66ee9e287dd37af59356e69e7c133a4c08bfdbba6ab5a9",
+          "sha1": "b7b5261593f870bb4d44986ab86cfbafcae555d3",
+          "md5": "753e56a25a2b817dab4909135e0c5be9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.7.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-imaging-1.7.16.aar",
+          "url": "nautilus-util-imaging-1.7.16.aar",
+          "size": 11064,
+          "sha512": "6853f6806fee00d5b1835366943bfa2bb0e47ec46e378ed4d8008d76b702fabd07e583b823645a54ddf54521a4d95e386fc275b7e80360bb79e4953a3ffeda49",
+          "sha256": "0d55068a57ec63abab66ee9e287dd37af59356e69e7c133a4c08bfdbba6ab5a9",
+          "sha1": "b7b5261593f870bb4d44986ab86cfbafcae555d3",
+          "md5": "753e56a25a2b817dab4909135e0c5be9"
+        }
+      ]
+    }
+  ]
+}
