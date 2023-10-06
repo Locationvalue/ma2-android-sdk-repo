@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-livedata",
+    "version": "1.7.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.7.22.aar",
+          "url": "nautilus-tools-livedata-1.7.22.aar",
+          "size": 10333,
+          "sha512": "006b9ca09ba6e1e8ad6ddf5fa42034ffd1439bee3bc75d735cd7877fcc2f825babafdd03c8b267f693601d88ea9e36968a332994b8e71ff58330dda7993025d3",
+          "sha256": "8c5d11aa60f2862e1f7a25104ff433ebb950a79ec8bb7a95d487aa87acd274f1",
+          "sha1": "f7bb8619076d38fcf52c2d42fc89aabe7f0bfe29",
+          "md5": "c2e3e6d57cdc407416687d748916d077"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.7.22.aar",
+          "url": "nautilus-tools-livedata-1.7.22.aar",
+          "size": 10333,
+          "sha512": "006b9ca09ba6e1e8ad6ddf5fa42034ffd1439bee3bc75d735cd7877fcc2f825babafdd03c8b267f693601d88ea9e36968a332994b8e71ff58330dda7993025d3",
+          "sha256": "8c5d11aa60f2862e1f7a25104ff433ebb950a79ec8bb7a95d487aa87acd274f1",
+          "sha1": "f7bb8619076d38fcf52c2d42fc89aabe7f0bfe29",
+          "md5": "c2e3e6d57cdc407416687d748916d077"
+        }
+      ]
+    }
+  ]
+}
