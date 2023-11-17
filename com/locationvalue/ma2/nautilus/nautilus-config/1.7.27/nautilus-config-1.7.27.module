@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-config",
+    "version": "1.7.27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.27"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-config-1.7.27.aar",
+          "url": "nautilus-config-1.7.27.aar",
+          "size": 143885,
+          "sha512": "548f0af3436801a06ebe5bac718462899059ed15b9f0249a882ea094155a5ac6ea0afdaddb746f70611eff4a9a12ad3a9c996bd1e90916ae13f4a2ee17605fb2",
+          "sha256": "258d8872150f7927bb53593492cef736fd388109fd5a64100b873b2b8eebddc1",
+          "sha1": "1ef79b0379f7aebda9b5b39a8472690c545ac56a",
+          "md5": "0ccc901bf13530bafcc5738a0146c0e0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.27"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-config-1.7.27.aar",
+          "url": "nautilus-config-1.7.27.aar",
+          "size": 143885,
+          "sha512": "548f0af3436801a06ebe5bac718462899059ed15b9f0249a882ea094155a5ac6ea0afdaddb746f70611eff4a9a12ad3a9c996bd1e90916ae13f4a2ee17605fb2",
+          "sha256": "258d8872150f7927bb53593492cef736fd388109fd5a64100b873b2b8eebddc1",
+          "sha1": "1ef79b0379f7aebda9b5b39a8472690c545ac56a",
+          "md5": "0ccc901bf13530bafcc5738a0146c0e0"
+        }
+      ]
+    }
+  ]
+}

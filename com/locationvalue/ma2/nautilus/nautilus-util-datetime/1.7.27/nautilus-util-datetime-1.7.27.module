@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-datetime",
+    "version": "1.7.27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.27"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-datetime-1.7.27.aar",
+          "url": "nautilus-util-datetime-1.7.27.aar",
+          "size": 15035,
+          "sha512": "c24704005e36f73f5c75c5ce400b7258c186f2759c1955952824d2baf66139f7bdb4802cff173f31cb718728b0327d2268be7ecb88663b84eb210953be3a59ae",
+          "sha256": "464d8d2ec290cf4b531dabe989f963f79f01037d3dbb0bcd1055f8c914294ed1",
+          "sha1": "42fb4fb2fbd879daeb964e48f2f667d76f4ecc62",
+          "md5": "a49609affd0fa68712f8305395a23328"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.7.27"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.threetenabp",
+          "module": "threetenabp",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-datetime-1.7.27.aar",
+          "url": "nautilus-util-datetime-1.7.27.aar",
+          "size": 15035,
+          "sha512": "c24704005e36f73f5c75c5ce400b7258c186f2759c1955952824d2baf66139f7bdb4802cff173f31cb718728b0327d2268be7ecb88663b84eb210953be3a59ae",
+          "sha256": "464d8d2ec290cf4b531dabe989f963f79f01037d3dbb0bcd1055f8c914294ed1",
+          "sha1": "42fb4fb2fbd879daeb964e48f2f667d76f4ecc62",
+          "md5": "a49609affd0fa68712f8305395a23328"
+        }
+      ]
+    }
+  ]
+}
