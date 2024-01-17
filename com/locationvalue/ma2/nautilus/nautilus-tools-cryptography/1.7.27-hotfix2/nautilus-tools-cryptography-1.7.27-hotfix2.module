@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-cryptography",
+    "version": "1.7.27-hotfix2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-cryptography-1.7.27-hotfix2.aar",
+          "url": "nautilus-tools-cryptography-1.7.27-hotfix2.aar",
+          "size": 26015,
+          "sha512": "f139b987001fa9806f966a1012c7624ef8351aba76a55a528cd7f0f84dec065583fe5a7e1b41a57fc560dc3988f83565f58318577af88376f7c750cf115c2dc1",
+          "sha256": "19cd4cccb082968b09c2320d60062e2e2523adf535af4421e8642e4bf946d9da",
+          "sha1": "4c80f33da0eeb02cdf8f7a502fa2c9dad738821b",
+          "md5": "df1bd872aa04600afa554516f3606e55"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-cryptography-1.7.27-hotfix2.aar",
+          "url": "nautilus-tools-cryptography-1.7.27-hotfix2.aar",
+          "size": 26015,
+          "sha512": "f139b987001fa9806f966a1012c7624ef8351aba76a55a528cd7f0f84dec065583fe5a7e1b41a57fc560dc3988f83565f58318577af88376f7c750cf115c2dc1",
+          "sha256": "19cd4cccb082968b09c2320d60062e2e2523adf535af4421e8642e4bf946d9da",
+          "sha1": "4c80f33da0eeb02cdf8f7a502fa2c9dad738821b",
+          "md5": "df1bd872aa04600afa554516f3606e55"
+        }
+      ]
+    }
+  ]
+}
