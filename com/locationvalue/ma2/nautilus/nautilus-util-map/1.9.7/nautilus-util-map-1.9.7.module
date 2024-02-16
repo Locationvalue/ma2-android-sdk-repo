@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-map",
+    "version": "1.9.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-map-1.9.7.aar",
+          "url": "nautilus-util-map-1.9.7.aar",
+          "size": 10487,
+          "sha512": "bb14bd4646b63d48b195bc0323a0afb32508bca644422cfd7741895f5990af4205847f8295f566a2fa347b266e9f6b5be6a27a2ea25c715995e043e347006cf3",
+          "sha256": "85b56b7ef48565749217b1cdbea2e51b063a5db692cdcfeb1ad5f986815c0fdc",
+          "sha1": "7e1287d4dd5f3631035454090102e463eece8faf",
+          "md5": "7fa2a9e01783a79bd2333f4f0f1e91fe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-map-1.9.7.aar",
+          "url": "nautilus-util-map-1.9.7.aar",
+          "size": 10487,
+          "sha512": "bb14bd4646b63d48b195bc0323a0afb32508bca644422cfd7741895f5990af4205847f8295f566a2fa347b266e9f6b5be6a27a2ea25c715995e043e347006cf3",
+          "sha256": "85b56b7ef48565749217b1cdbea2e51b063a5db692cdcfeb1ad5f986815c0fdc",
+          "sha1": "7e1287d4dd5f3631035454090102e463eece8faf",
+          "md5": "7fa2a9e01783a79bd2333f4f0f1e91fe"
+        }
+      ]
+    }
+  ]
+}
