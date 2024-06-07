@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-maintenance",
+    "version": "1.12.2-hotfix3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.12.2-hotfix3"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.12.2-hotfix3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-maintenance-1.12.2-hotfix3.aar",
+          "url": "nautilus-maintenance-1.12.2-hotfix3.aar",
+          "size": 41042,
+          "sha512": "7c63d2416949f13c3e5604c349f735d41adde29ee932ff46d18a4d0ff2432c4b2a061beac5c97387d0b26ad28a86a28864d7f28f9bc8606b1b2dbe2295bb179f",
+          "sha256": "e64dd45841af6e37d9e686c72a3f881c37d0f44025cc4523b4fc8c3bf1427b9a",
+          "sha1": "6f28d786594da3fbcb80f9afc5caf3b81caa8ed4",
+          "md5": "b55b808f320000c601d4b495484581ca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.12.2-hotfix3"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.12.2-hotfix3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-maintenance-1.12.2-hotfix3.aar",
+          "url": "nautilus-maintenance-1.12.2-hotfix3.aar",
+          "size": 41042,
+          "sha512": "7c63d2416949f13c3e5604c349f735d41adde29ee932ff46d18a4d0ff2432c4b2a061beac5c97387d0b26ad28a86a28864d7f28f9bc8606b1b2dbe2295bb179f",
+          "sha256": "e64dd45841af6e37d9e686c72a3f881c37d0f44025cc4523b4fc8c3bf1427b9a",
+          "sha1": "6f28d786594da3fbcb80f9afc5caf3b81caa8ed4",
+          "md5": "b55b808f320000c601d4b495484581ca"
+        }
+      ]
+    }
+  ]
+}
