@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-code-image-providers",
+    "version": "1.12.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.12.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-code-image-providers-1.12.9.aar",
+          "url": "nautilus-code-image-providers-1.12.9.aar",
+          "size": 12771,
+          "sha512": "6f08c524efe6925618c196ff5bc45fd76aa19283167f885ad6b3eb4700c2bf51ed99fe7a68828bec089a6120d289cb4e2a26c3f62d8c1113c3c3fe2571cd433a",
+          "sha256": "1d15c6b1c909d9ad45fd779a3f986e8c44d2f5bf48b7ad6885161404a2b4c60a",
+          "sha1": "866fb7ad432f3d7b9b6fd1151c14ecfbfa722098",
+          "md5": "1cf1ecf07bfa9e183f7fedec88deee20"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.12.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-code-image-providers-1.12.9.aar",
+          "url": "nautilus-code-image-providers-1.12.9.aar",
+          "size": 12771,
+          "sha512": "6f08c524efe6925618c196ff5bc45fd76aa19283167f885ad6b3eb4700c2bf51ed99fe7a68828bec089a6120d289cb4e2a26c3f62d8c1113c3c3fe2571cd433a",
+          "sha256": "1d15c6b1c909d9ad45fd779a3f986e8c44d2f5bf48b7ad6885161404a2b4c60a",
+          "sha1": "866fb7ad432f3d7b9b6fd1151c14ecfbfa722098",
+          "md5": "1cf1ecf07bfa9e183f7fedec88deee20"
+        }
+      ]
+    }
+  ]
+}
