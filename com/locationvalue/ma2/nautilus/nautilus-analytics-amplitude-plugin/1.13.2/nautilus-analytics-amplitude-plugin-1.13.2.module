@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-analytics-amplitude-plugin",
+    "version": "1.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.amplitude",
+          "module": "android-sdk",
+          "version": {
+            "requires": "2.38.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-analytics-amplitude-plugin-1.13.2.aar",
+          "url": "nautilus-analytics-amplitude-plugin-1.13.2.aar",
+          "size": 11316,
+          "sha512": "7aeb645cfc3bd4153aa16d881426b59183aa8a1e645dfd5dbeba0a1ddabd35f0fd08824b8f04f5519da6a4db0429eb2cc5c1a0b621606df210e50222bd853c7c",
+          "sha256": "3232a873cdbd89e525aca89305bce258c9c39520ddb2a954b369fab2bf00d3c9",
+          "sha1": "2d3b3efbecf7b71f5b2a1ba2f2d332657caca4fc",
+          "md5": "8bf380a43df54976328e2dd249a5eaf1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-analytics",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "com.amplitude",
+          "module": "android-sdk",
+          "version": {
+            "requires": "2.38.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-analytics-amplitude-plugin-1.13.2.aar",
+          "url": "nautilus-analytics-amplitude-plugin-1.13.2.aar",
+          "size": 11316,
+          "sha512": "7aeb645cfc3bd4153aa16d881426b59183aa8a1e645dfd5dbeba0a1ddabd35f0fd08824b8f04f5519da6a4db0429eb2cc5c1a0b621606df210e50222bd853c7c",
+          "sha256": "3232a873cdbd89e525aca89305bce258c9c39520ddb2a954b369fab2bf00d3c9",
+          "sha1": "2d3b3efbecf7b71f5b2a1ba2f2d332657caca4fc",
+          "md5": "8bf380a43df54976328e2dd249a5eaf1"
+        }
+      ]
+    }
+  ]
+}
