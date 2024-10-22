@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-logging",
+    "version": "1.14.3-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-logging-1.14.3-hotfix1.aar",
+          "url": "nautilus-tools-logging-1.14.3-hotfix1.aar",
+          "size": 19649,
+          "sha512": "5601701f60737ef1ffd5a91e0f3ed1e78ede7522eae73bee96581282218a2a4a431a5bb9471910044f3f0346a34500c5d5c469df118ab41dbc40d2ce3c01bf40",
+          "sha256": "35b6f95326a733e5266fe3e3bd65a0c857aa08deb12ae042e60fb970cf7d1dff",
+          "sha1": "e113e7de66feee284fac870917a91ce7b1449c78",
+          "md5": "7fff6cfac80b9de937da478e11a4dafe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-logging-1.14.3-hotfix1.aar",
+          "url": "nautilus-tools-logging-1.14.3-hotfix1.aar",
+          "size": 19649,
+          "sha512": "5601701f60737ef1ffd5a91e0f3ed1e78ede7522eae73bee96581282218a2a4a431a5bb9471910044f3f0346a34500c5d5c469df118ab41dbc40d2ce3c01bf40",
+          "sha256": "35b6f95326a733e5266fe3e3bd65a0c857aa08deb12ae042e60fb970cf7d1dff",
+          "sha1": "e113e7de66feee284fac870917a91ce7b1449c78",
+          "md5": "7fff6cfac80b9de937da478e11a4dafe"
+        }
+      ]
+    }
+  ]
+}
