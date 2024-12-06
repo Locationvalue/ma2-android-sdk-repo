@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-json",
+    "version": "1.15.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.15.3.aar",
+          "url": "nautilus-util-json-1.15.3.aar",
+          "size": 11394,
+          "sha512": "8ab23dd4e0ef97e24b1b97da3ddc09121b65708819f96ffd6282c5c33da81ffec214cb0fddd7bb953e890991ba42775385bd353634b53ee9680100f42c5ef0fd",
+          "sha256": "d1bd7216c91d2b3ff595e93c8b2e4b184d68b1b20106aebf3111fdb736b90e77",
+          "sha1": "5fbe9684de6c8a5ab997a0939ce2a57795865b35",
+          "md5": "8f5c0b7a05ef6caf2b23005c9b829b18"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.15.3.aar",
+          "url": "nautilus-util-json-1.15.3.aar",
+          "size": 11394,
+          "sha512": "8ab23dd4e0ef97e24b1b97da3ddc09121b65708819f96ffd6282c5c33da81ffec214cb0fddd7bb953e890991ba42775385bd353634b53ee9680100f42c5ef0fd",
+          "sha256": "d1bd7216c91d2b3ff595e93c8b2e4b184d68b1b20106aebf3111fdb736b90e77",
+          "sha1": "5fbe9684de6c8a5ab997a0939ce2a57795865b35",
+          "md5": "8f5c0b7a05ef6caf2b23005c9b829b18"
+        }
+      ]
+    }
+  ]
+}
