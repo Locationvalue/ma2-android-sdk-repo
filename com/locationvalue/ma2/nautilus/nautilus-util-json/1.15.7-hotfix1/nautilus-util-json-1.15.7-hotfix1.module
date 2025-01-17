@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-util-json",
+    "version": "1.15.7-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.15.7-hotfix1.aar",
+          "url": "nautilus-util-json-1.15.7-hotfix1.aar",
+          "size": 11394,
+          "sha512": "06b806fb2f0650901ec81045ac4725d908d980e03f250f75eed1be7d544dff0ca810533cce80d8e4ed985972ca006fc2892a52d2b8f317cbf3a844af7f514df3",
+          "sha256": "461147ca22e8951a6b1681bacad41159fdee2394cf5dd167d50193c8119c6a3b",
+          "sha1": "01f7e7f5d7f684dc290d79abe44778e1b7712e51",
+          "md5": "11422478e6aa25a860afcd30f00f1b2b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-util-json-1.15.7-hotfix1.aar",
+          "url": "nautilus-util-json-1.15.7-hotfix1.aar",
+          "size": 11394,
+          "sha512": "06b806fb2f0650901ec81045ac4725d908d980e03f250f75eed1be7d544dff0ca810533cce80d8e4ed985972ca006fc2892a52d2b8f317cbf3a844af7f514df3",
+          "sha256": "461147ca22e8951a6b1681bacad41159fdee2394cf5dd167d50193c8119c6a3b",
+          "sha1": "01f7e7f5d7f684dc290d79abe44778e1b7712e51",
+          "md5": "11422478e6aa25a860afcd30f00f1b2b"
+        }
+      ]
+    }
+  ]
+}
