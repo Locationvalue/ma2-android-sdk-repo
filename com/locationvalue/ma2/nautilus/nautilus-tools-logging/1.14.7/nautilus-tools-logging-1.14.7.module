@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-logging",
+    "version": "1.14.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-logging-1.14.7.aar",
+          "url": "nautilus-tools-logging-1.14.7.aar",
+          "size": 19641,
+          "sha512": "0bc85816d0c4c3429da7af42f90cce37eef48b1c2b59ffe8bfcb5db70d299ba797adbe8f491b02e348a8bfab6ccbb02f874ab4adccf463f983c447cba068cc2a",
+          "sha256": "faa87e036466d44f488186e4c20e2881dab8ab8d000f9b3f2bde4b17c9770941",
+          "sha1": "c5feabd9b14779c6e7c89ac9160b820c068b4efb",
+          "md5": "5e598321d4486fc54887b905e3e10287"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-logging-1.14.7.aar",
+          "url": "nautilus-tools-logging-1.14.7.aar",
+          "size": 19641,
+          "sha512": "0bc85816d0c4c3429da7af42f90cce37eef48b1c2b59ffe8bfcb5db70d299ba797adbe8f491b02e348a8bfab6ccbb02f874ab4adccf463f983c447cba068cc2a",
+          "sha256": "faa87e036466d44f488186e4c20e2881dab8ab8d000f9b3f2bde4b17c9770941",
+          "sha1": "c5feabd9b14779c6e7c89ac9160b820c068b4efb",
+          "md5": "5e598321d4486fc54887b905e3e10287"
+        }
+      ]
+    }
+  ]
+}
