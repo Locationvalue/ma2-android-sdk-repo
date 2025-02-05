@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-livedata",
+    "version": "1.16.0-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.16.0-hotfix1.aar",
+          "url": "nautilus-tools-livedata-1.16.0-hotfix1.aar",
+          "size": 10510,
+          "sha512": "b25bc43bc03df1930e5750e29abab421d47a198cd282a6f7d831b169d9fddd9cbeff32f19c3e1eb5f666470aa2d304a164c44eacddce211da3d1aaf791a1308b",
+          "sha256": "0eb75d1dd5ef5060c655b09a762f0635fc53d8711a181bcab4689d32ba611ad2",
+          "sha1": "ee8342870621c6b47163170ebc52b469979d60c2",
+          "md5": "2c8da8774c31532a474592a1de449454"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.16.0-hotfix1.aar",
+          "url": "nautilus-tools-livedata-1.16.0-hotfix1.aar",
+          "size": 10510,
+          "sha512": "b25bc43bc03df1930e5750e29abab421d47a198cd282a6f7d831b169d9fddd9cbeff32f19c3e1eb5f666470aa2d304a164c44eacddce211da3d1aaf791a1308b",
+          "sha256": "0eb75d1dd5ef5060c655b09a762f0635fc53d8711a181bcab4689d32ba611ad2",
+          "sha1": "ee8342870621c6b47163170ebc52b469979d60c2",
+          "md5": "2c8da8774c31532a474592a1de449454"
+        }
+      ]
+    }
+  ]
+}
