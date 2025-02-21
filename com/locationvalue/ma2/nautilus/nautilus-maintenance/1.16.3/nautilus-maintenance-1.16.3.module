@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-maintenance",
+    "version": "1.16.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.16.3"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.16.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-maintenance-1.16.3.aar",
+          "url": "nautilus-maintenance-1.16.3.aar",
+          "size": 41105,
+          "sha512": "8873894f0e2e79555700962a8fad21ff26f4dfb183cf5ce1df20ddfe5019e95249177919dc42d071e8faad7ce7381f4ccf03e78b652cc24184dad58f804e0367",
+          "sha256": "ef816fcb083dd8c93b93167adc54a4fbf379ad1ceee01d83426e09b94e1a3fb0",
+          "sha1": "272b865572cc7bf131ed1a162b2cf175741eeb9e",
+          "md5": "b2119d6356068d5cd7d1bee53b9753b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-network",
+          "version": {
+            "requires": "1.16.3"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-core",
+          "version": {
+            "requires": "1.16.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-maintenance-1.16.3.aar",
+          "url": "nautilus-maintenance-1.16.3.aar",
+          "size": 41105,
+          "sha512": "8873894f0e2e79555700962a8fad21ff26f4dfb183cf5ce1df20ddfe5019e95249177919dc42d071e8faad7ce7381f4ccf03e78b652cc24184dad58f804e0367",
+          "sha256": "ef816fcb083dd8c93b93167adc54a4fbf379ad1ceee01d83426e09b94e1a3fb0",
+          "sha1": "272b865572cc7bf131ed1a162b2cf175741eeb9e",
+          "md5": "b2119d6356068d5cd7d1bee53b9753b7"
+        }
+      ]
+    }
+  ]
+}
