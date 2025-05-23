@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-livedata",
+    "version": "1.17.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.17.5.aar",
+          "url": "nautilus-tools-livedata-1.17.5.aar",
+          "size": 10514,
+          "sha512": "13baa70af10bfa11ae18c532e53b594a9c5ab41e7d9c9b396da760f37658096e0509292d14432db83dbc5b8009f1a948c858d7559b078f6aa82ddfc4a52cf54f",
+          "sha256": "ddf688918f97310c77e2068a7d83509cbb259d62fb746070b2c960a2b32d9916",
+          "sha1": "d0d407b5e0646674145b37202c529fd48a31847b",
+          "md5": "a06b99121864a7d79fb23c86192018df"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.17.5.aar",
+          "url": "nautilus-tools-livedata-1.17.5.aar",
+          "size": 10514,
+          "sha512": "13baa70af10bfa11ae18c532e53b594a9c5ab41e7d9c9b396da760f37658096e0509292d14432db83dbc5b8009f1a948c858d7559b078f6aa82ddfc4a52cf54f",
+          "sha256": "ddf688918f97310c77e2068a7d83509cbb259d62fb746070b2c960a2b32d9916",
+          "sha1": "d0d407b5e0646674145b37202c529fd48a31847b",
+          "md5": "a06b99121864a7d79fb23c86192018df"
+        }
+      ]
+    }
+  ]
+}
