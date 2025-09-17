@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-cryptography",
+    "version": "1.19.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-cryptography-1.19.4.aar",
+          "url": "nautilus-tools-cryptography-1.19.4.aar",
+          "size": 26329,
+          "sha512": "224c840a738ea57edc397f572d230fdc8eeda4112c3d1b97bc9e0bda26dc90a6245d5f71f1845e9a4fc6cab9709061aaf2b1a45dabe0bdbf0101328c95ad7840",
+          "sha256": "c087900a480177a37cede03c6bd3583afc2347fae9daca6d194fd83d6f9d2000",
+          "sha1": "ae4ec2a2d448f3c6feea52cfe675b9b8d07490d0",
+          "md5": "5ba0b6ef94be6286a80eaab213bf6b0f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-cryptography-1.19.4.aar",
+          "url": "nautilus-tools-cryptography-1.19.4.aar",
+          "size": 26329,
+          "sha512": "224c840a738ea57edc397f572d230fdc8eeda4112c3d1b97bc9e0bda26dc90a6245d5f71f1845e9a4fc6cab9709061aaf2b1a45dabe0bdbf0101328c95ad7840",
+          "sha256": "c087900a480177a37cede03c6bd3583afc2347fae9daca6d194fd83d6f9d2000",
+          "sha1": "ae4ec2a2d448f3c6feea52cfe675b9b8d07490d0",
+          "md5": "5ba0b6ef94be6286a80eaab213bf6b0f"
+        }
+      ]
+    }
+  ]
+}
