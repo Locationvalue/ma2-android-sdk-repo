@@ -1,0 +1,419 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-stamp-ui",
+    "version": "1.19.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-imaging",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-config",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-format",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-json",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-view",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-stamp",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-analytics",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-livedata",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-server-time",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-code-reader",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-stamp-ui-1.19.10.aar",
+          "url": "nautilus-stamp-ui-1.19.10.aar",
+          "size": 620970,
+          "sha512": "047b4d81825ace5d7d214cb7853786826d850df671f837a20e270cdabbbd202323fcd3629b7d220b36f90c89f2c77f7811b45c6bb253e01d00225628f7e51b7a",
+          "sha256": "0926b1738aab4bf4cae6b562b12b5ece10448323e397ff98b108b9cf564c37f4",
+          "sha1": "da1c481433055bcf295f4310090fddb98ea736db",
+          "md5": "621a1eed88e1b2eb01507351f7490d40"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-wovn",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-imaging",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-config",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-format",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-json",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-view",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-stamp",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-analytics",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-livedata",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-server-time",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-code-reader",
+          "version": {
+            "requires": "1.19.10"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-stamp-ui-1.19.10.aar",
+          "url": "nautilus-stamp-ui-1.19.10.aar",
+          "size": 620970,
+          "sha512": "047b4d81825ace5d7d214cb7853786826d850df671f837a20e270cdabbbd202323fcd3629b7d220b36f90c89f2c77f7811b45c6bb253e01d00225628f7e51b7a",
+          "sha256": "0926b1738aab4bf4cae6b562b12b5ece10448323e397ff98b108b9cf564c37f4",
+          "sha1": "da1c481433055bcf295f4310090fddb98ea736db",
+          "md5": "621a1eed88e1b2eb01507351f7490d40"
+        }
+      ]
+    }
+  ]
+}
