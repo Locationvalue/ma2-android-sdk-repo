@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-core",
+    "version": "1.25.6-hotfix1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.25.6-hotfix1"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-cryptography",
+          "version": {
+            "requires": "1.25.6-hotfix1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-core-1.25.6-hotfix1.aar",
+          "url": "nautilus-core-1.25.6-hotfix1.aar",
+          "size": 85245,
+          "sha512": "9e060da826f22966ed1523e0747408a6d8d62824e0a2ad0247b2b55b8d10a70cf40b7cb471b89f780c862fceaaff636a1a9077a1eb40f4f2dc95ba03f8ec6467",
+          "sha256": "eea9965e4361e5466258cea14183adb16b7826420528b491484ff8cb714f0258",
+          "sha1": "e6fdb991f5cac5e1ce8cabb7b30685aaea8cdd0d",
+          "md5": "ce036021b2c9177bdfe505cd68093193"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-logging",
+          "version": {
+            "requires": "1.25.6-hotfix1"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-tools-cryptography",
+          "version": {
+            "requires": "1.25.6-hotfix1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-core-1.25.6-hotfix1.aar",
+          "url": "nautilus-core-1.25.6-hotfix1.aar",
+          "size": 85245,
+          "sha512": "9e060da826f22966ed1523e0747408a6d8d62824e0a2ad0247b2b55b8d10a70cf40b7cb471b89f780c862fceaaff636a1a9077a1eb40f4f2dc95ba03f8ec6467",
+          "sha256": "eea9965e4361e5466258cea14183adb16b7826420528b491484ff8cb714f0258",
+          "sha1": "e6fdb991f5cac5e1ce8cabb7b30685aaea8cdd0d",
+          "md5": "ce036021b2c9177bdfe505cd68093193"
+        }
+      ]
+    }
+  ]
+}
