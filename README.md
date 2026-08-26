@@ -28,8 +28,6 @@ Copyright © DearOne, Inc. (formerly LocationValue Inc.) All rights reserved.
 
 Android、Google Play、Android Studio は、Google LLC の商標です。本 SDK は Google LLC によって提供、承認、または推奨されるものではありません。
 
-Kotlin は、Kotlin Foundation の商標です。
-
 ## お問い合わせ
 
 本 SDK に関するお問い合わせは、ご契約時にご案内している窓口までご連絡ください。
