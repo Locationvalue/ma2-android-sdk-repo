@@ -1,6 +1,6 @@
 # ma2-android-sdk-repo
 
-ModuleApps 2.0（MA 2.0）の Android 向けライブラリを配布するための Maven リポジトリです。各ライブラリは `com.locationvalue.ma2.nautilus` group ID で配布しています。
+ModuleApps 2.0（MA 2.0）の Android 向けライブラリを配布するための Maven リポジトリです。
 
 ## ご利用にあたって
 
