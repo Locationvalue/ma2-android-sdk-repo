@@ -1,0 +1,269 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-stamp-rally-ui",
+    "version": "1.25.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-code-reader",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-server-time",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-stamp",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-map",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "9.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-stamp-rally-ui-1.25.14.aar",
+          "url": "nautilus-stamp-rally-ui-1.25.14.aar",
+          "size": 466359,
+          "sha512": "ee330892a6401a262319bbbe6acd27ea4c6c7a28bafb56df813a7e02fdf4e2a8a496806f506b7ee5fac7fea40fa4290038674bf43fe4af8bdfe1009e90ee2610",
+          "sha256": "eccb7079f7c90baa602a246f80adecb97dc3979c43ebae9eaba176e4c2f0e11e",
+          "sha1": "f3730b8a63a488241b3b6279ffa80cd162cfe1ef",
+          "md5": "d905bad8fd7a774a55eeeb0dc541633d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-imaging",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-wovn",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.9"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "20.0.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.03.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-code-reader",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-server-time",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-stamp",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-map",
+          "version": {
+            "requires": "1.25.14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "9.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-stamp-rally-ui-1.25.14.aar",
+          "url": "nautilus-stamp-rally-ui-1.25.14.aar",
+          "size": 466359,
+          "sha512": "ee330892a6401a262319bbbe6acd27ea4c6c7a28bafb56df813a7e02fdf4e2a8a496806f506b7ee5fac7fea40fa4290038674bf43fe4af8bdfe1009e90ee2610",
+          "sha256": "eccb7079f7c90baa602a246f80adecb97dc3979c43ebae9eaba176e4c2f0e11e",
+          "sha1": "f3730b8a63a488241b3b6279ffa80cd162cfe1ef",
+          "md5": "d905bad8fd7a774a55eeeb0dc541633d"
+        }
+      ]
+    }
+  ]
+}
