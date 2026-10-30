@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-tools-livedata",
+    "version": "1.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.27.0.aar",
+          "url": "nautilus-tools-livedata-1.27.0.aar",
+          "size": 4173,
+          "sha512": "07228f5bbf56dfdc867cfc2059a8d50662b9e412a55160abef9d051eb0395ef1637bdc35fe70ae5424c99e94fcb303f706a38494777474b58712bb2886a653f8",
+          "sha256": "d1a0bd5ceac543099f26941d5699c43c411f9fad62b183f6a405c8786d8e3f38",
+          "sha1": "1b7c477f046d8b49a3735b4cd920c826c4698cbb",
+          "md5": "44d967364444cbb708ae7eb2f0020b51"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-tools-livedata-1.27.0.aar",
+          "url": "nautilus-tools-livedata-1.27.0.aar",
+          "size": 4173,
+          "sha512": "07228f5bbf56dfdc867cfc2059a8d50662b9e412a55160abef9d051eb0395ef1637bdc35fe70ae5424c99e94fcb303f706a38494777474b58712bb2886a653f8",
+          "sha256": "d1a0bd5ceac543099f26941d5699c43c411f9fad62b183f6a405c8786d8e3f38",
+          "sha1": "1b7c477f046d8b49a3735b4cd920c826c4698cbb",
+          "md5": "44d967364444cbb708ae7eb2f0020b51"
+        }
+      ]
+    }
+  ]
+}
