@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.locationvalue.ma2.nautilus",
+    "module": "nautilus-campaign",
+    "version": "1.28.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.28.1"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-format",
+          "version": {
+            "requires": "1.28.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-campaign-1.28.1.aar",
+          "url": "nautilus-campaign-1.28.1.aar",
+          "size": 134834,
+          "sha512": "0f2222db0c8ce82846c048d739c4ba1c00343b352fa80b5bea6ed8484e312384247b432b4631ac95e6214cdef4d7e670da2b105f0053234e117017218e078e6c",
+          "sha256": "4124045b68118e93cde31d3f59adf27d3d80eb0707404a626c15b0d3261bd762",
+          "sha1": "b8d57e48fc6c7424e7529a514243f0eb4c835877",
+          "md5": "7a9f8e09682c7f726411824818869454"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.15.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.15.2"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-identify",
+          "version": {
+            "requires": "1.28.1"
+          }
+        },
+        {
+          "group": "com.locationvalue.ma2.nautilus",
+          "module": "nautilus-util-format",
+          "version": {
+            "requires": "1.28.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nautilus-campaign-1.28.1.aar",
+          "url": "nautilus-campaign-1.28.1.aar",
+          "size": 134834,
+          "sha512": "0f2222db0c8ce82846c048d739c4ba1c00343b352fa80b5bea6ed8484e312384247b432b4631ac95e6214cdef4d7e670da2b105f0053234e117017218e078e6c",
+          "sha256": "4124045b68118e93cde31d3f59adf27d3d80eb0707404a626c15b0d3261bd762",
+          "sha1": "b8d57e48fc6c7424e7529a514243f0eb4c835877",
+          "md5": "7a9f8e09682c7f726411824818869454"
+        }
+      ]
+    }
+  ]
+}
